@@ -1,9 +1,14 @@
 venv/
+.venv/
 __pycache__/
 *.pyc
 .DS_Store
 
 artifacts/checkpoints/
+artifacts/ablation/
+artifacts/*.log
+artifacts/*.png
 models/*.pt
+src/artifacts/
 
 external_DQN_CartPole/
